@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "extract",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/web_site_extraction/app.py",
+            "console": "integratedTerminal",
+            "args": [
+                "-i", "resources/CTRlista1.csv"
+            ]
+        }
+    ]
+}
